@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../assert.jpg);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 4px 6px 6px black;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.generator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#password {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset rgba(0 0 0 0.10);
+}
+
+#generateBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #0c0649;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generateBtn:hover {
+    background-color: #6895c6;
+}
